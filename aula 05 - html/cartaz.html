@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="main-banner">
+        <h1>Primeiro Festival X</h1>
+    </section>
+    <section class="tickets">
+        <h2 class="title">Ingressos</h2>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi suscipit dolores iste tempora nemo
+            animi quod odit consequatur id, ab ea natus eveniet voluptatibus, ad maxime cum quibusdam expedita minus!
+        </p>
+        <a href="#" class="button">Compre agora!</a>
+    </section>
+    <section class="lineup">
+        <h2 class="title">Atrações</h2>
+
+        <div class="content">
+            <div class="box">
+                <h3>Sexta</h3>
+                <ul class="list">
+                    <li>iron maiden</li>
+                    <li>calipso</li>
+                    <li>alok</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Sábado</h3>
+                <ul class="list">
+                    <li>iron maiden</li>
+                    <li>calipso</li>
+                    <li>alok</li>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>Domingo</h3>
+                <ul class="list">
+                    <li>iron maiden</li>
+                    <li>calipso</li>
+                    <li>alok</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <style>
+        * {
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        .main-banner {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: rgb(100, 101, 144);
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        .tickets {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .tickets .title,
+        .tickets .text {
+            margin-bottom: 20px;
+        }
+
+        .tickets .button {
+            width: 250px;
+            height: 40px;
+            display: block;
+            background: rgb(100, 101, 144);
+            margin: auto;
+            line-height: 40px;
+            text-decoration: none;
+            color: #FFF;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .tickets .button:hover {
+            background: rgb(69, 70, 99);
+        }
+
+        .lineup {
+            text-align: center;
+            background: #c7c7c7;
+            padding: 40px;
+        }
+
+        .lineup .title {
+            margin-bottom: 20px;
+        }
+
+        .lineup .content {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .lineup .content .box {
+            width: 30%;
+            height: 100px;
+            background-color: #FFF;
+            padding-top: 20px;
+        }
+
+        .lineup .content .box .list {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+        }
+
+        @media (max-width:600px) {
+            .lineup .content {
+                flex-direction: column;
+                align-items: center;
+            }
+            .lineup .content .box {
+                margin-bottom: 20px;
+                width: 250px;
+            }
+        }
+
+    </style>
+
+</body>
+
+</html>

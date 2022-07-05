@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="nome">Nome</label>
+        <input id="nome" type="text" placeholder="digite o nome" required>
+        <br>
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="email" required>
+        <br>
+
+        <label for="senha">Senha</label>
+        <input id="senha" type="password" placeholder="senha" required>
+        <br>
+
+
+        <label for="telefone">Telefone</label>
+        <input id="telefone" type="number" min="0" max="999">
+        <br>
+
+        <label for="cor">Cor</label>
+        <input id="cor" type="color">
+        <br>
+
+        <label for="linkedin">Linkedin</label>
+        <input id="linkedin" type="url">
+        <br>
+
+        <label for="data">data de nascimento</label>
+        <input id="data" type="date">
+        <br>
+
+        <label for="hora">hora</label>
+        <input id="hora" type="time">
+        <br>
+
+        <label for="nota">nota</label>
+        <input id="nota" type="range">
+        <br>
+
+
+        <label for="curriculo">anexe seu curriculo</label>
+        <input id="curriculo" type="file">
+        <br>
+
+        <p>escolha o tamanho da camisa</p>
+        <label for="p">P</label>
+        <input name="tamanho" type="radio" id="p">
+        <br>
+
+        <label for="m">M</label>
+        <input name="tamanho" type="radio" id="m">
+        <br>
+
+        <label for="g">G</label>
+        <input name="tamanho" type="radio" id="g">
+        <br>
+
+
+        <p>Quais suas bandas favoritas</p>
+        <input id="unha" type="checkbox">
+        <label for="unha">Unha pintada</label>
+        <br>
+
+        <input id="angra" type="checkbox">
+        <label for="angra">Angra</label>
+        <br>
+
+        <!-- esse campo não fica visível"--> 
+
+        <input type="hidden" name="token" value="12345">
+        <br>
+
+        <label for="obs">mensagem</label>
+        <textarea id="obs" cols="10" rows="10"></textarea>
+        <br>
+
+
+        <label for="cidade">selecione sua cidade</label>
+        <select id="cidade" required>
+
+            <optgroup label="Ceará">
+            <option>fortaleza</option>
+            <option>pirambu</option>
+            <option>caucaia</option>
+            <option>sobral</option>
+            </optgroup>
+
+        </select>
+
+
+
+
+
+
+     <button>Enviar</button>
+
+
+    </form>
+</body>
+</html>
